@@ -3,6 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
-
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I am a dedicated and results-driven IT professional with experience in customer support, ERP consulting, and system administration. With a Bachelor of Science in Information Technology from Taita Taveta University, I bring a strong foundation in system troubleshooting, user training, and software support.
+As a Customer Support Specialist at Slip Limited, I successfully trained over 50+ system users and resolved critical technical issues to enhance user experience. My expertise includes ERP systems (Odoo, Microsoft Dynamics, HansaWorld), programming (Python, HTML, JavaScript), and version control (Git, GitHub).
+I am passionate about problem-solving, cybersecurity, and driving innovation within organizations. I thrive in collaborative environments and am always eager to learn new technologies to improve efficiency.
+Let’s connect and explore opportunities to work together
