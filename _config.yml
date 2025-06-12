@@ -101,8 +101,8 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
-      type: pages
+      path: "_projects"
+      type: projects
     values:
       layout: single
       author_profile: true
