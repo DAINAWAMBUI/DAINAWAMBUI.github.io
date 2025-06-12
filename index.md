@@ -3,7 +3,7 @@ title: "Daina Muiruri | Portfolio"
 layout: default
 ---
 
-# ![Daina's Photo](your-photo.jpg)
+# photo.jpg
 
 # **Daina Muiruri**  
 **ICT Support Specialist | Web Developer | Cybersecurity Enthusiast**
