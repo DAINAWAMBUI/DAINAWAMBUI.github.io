@@ -134,6 +134,17 @@ A complete e-commerce platform with user registration, product browsing, payment
 
 ---
 
+---
+
+### 💻 HTB - DNS in Details
+- **Problem:** Windows file/user misconfigurations  
+- **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
+- **Tools:** whoami, ipconfig, net user  
+- **Lessons:** Learned user privilege basics and common mistakes  
+![Screenshot](images/windowsfund.png)
+
+---
+
 ## 📬 Contact
 
 - 📧 **Email:** [daina.muiruri@gmail.com](mailto:daina.muiruri@gmail.com)  
