@@ -174,11 +174,12 @@ New-LocalUser -Name "Jim" –NoPassword
 ---
 
 ### 💻 HTB - DNS in Details
-- **Problem:** Windows file/user misconfigurations  
-- **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
-- **Tools:** whoami, ipconfig, net user  
-- **Lessons:** Learned user privilege basics and common mistakes  
-![Screenshot](images/windowsfund.png)
+
+-**Problem: **Understand and analyze DNS record types, domain hierarchy, and DNS request behaviors
+**Approach:** Studied DNS structure (TLDs, subdomains), queried DNS records (A, AAAA, CNAME, MX, TXT) using practical tools in the TryHackMe lab environment
+-**Tools:** DNS lookup interface, TryHackMe DNS simulator
+-**Lessons:** Learned how to retrieve IP addresses, email server info, CNAME chains, and domain verification data using DNS queries
+![Screenshot](images/dns-in-details.png)
 
 ---
 
