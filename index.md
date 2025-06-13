@@ -139,7 +139,7 @@ New-LocalUser -Name "Jim" –NoPassword
 ---
 
 ---
-🛰️ TryHackMe - Passive Reconnaissance
+ ### 🛰️ TryHackMe - Passive Reconnaissance
 - **Problem:** Gather publicly available information about a target without direct interaction
 
 - **Approach:** Used CLI tools (whois, nslookup, dig) and online services (DNSDumpster, Shodan.io) to extract DNS records, server data, and registration info
