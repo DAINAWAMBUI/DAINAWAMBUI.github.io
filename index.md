@@ -72,12 +72,12 @@ A complete e-commerce platform with user registration, product browsing, payment
 
 ## 🧪 Lab Challenges
 
-### 🔐 HTB - ACADEMY-GETSTART-SKILLS
-- **Problem:** Exploit a vulnerable box via weak credentials  
-- **Approach:** Used Nmap, then brute-forced login with Hydra  
-- **Tools:** Nmap, Hydra, Firefox  
-- **Lessons:** Enumeration is crucial. Weak creds = easy access  
-![Screenshot](images/getstart.png)
+### 🌐 HTB - Web Fundamentals
+- **Problem:** Understand how web applications work, their architecture, and common security flaws
+- **Approach:** Explored differences between websites and web apps, identified exposed passwords in HTML comments, used GET requests for enumeration, and tested XSS injection
+- **Tools:** Browser Developer Tools, HTML inspection, JavaScript, CVE database (NVD), GET requests
+- **Lessons:** Learned about frontend structure (HTML/CSS), XSS attacks, exposed credentials, web infrastructure layers, and how vulnerabilities like CVE-2017-0144 are evaluated and scored
+<img src="assets/images/web-application.png">
 
 ---
 
@@ -141,11 +141,8 @@ New-LocalUser -Name "Jim" –NoPassword
 ---
  ### 🛰️ TryHackMe - Passive Reconnaissance
 - **Problem:** Gather publicly available information about a target without direct interaction
-
 - **Approach:** Used CLI tools (whois, nslookup, dig) and online services (DNSDumpster, Shodan.io) to extract DNS records, server data, and registration info
-
 - **Tools:** whois, nslookup, dig, DNSDumpster, Shodan.io
-
 - **Lessons:** Learned to differentiate between active and passive recon, query WHOIS/TXT/MX records, identify subdomains, and analyze exposed services without touching the target directly
 
 ---
