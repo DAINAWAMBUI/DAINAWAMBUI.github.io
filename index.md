@@ -68,18 +68,6 @@ A complete e-commerce platform with user registration, product browsing, payment
 
 ---
 
-### 2. **Fast Food Ordering Website** (ongoing)
-Responsive ordering site for a mock fast food business.  
-**Tech:** HTML, CSS, JavaScript  
-**GitHub:** [Project Link](https://github.com/DAINAWAMBUI)
-
----
-
-### 3. **University Website Template**
-Built a university-style academic portal as part of course work.  
-**Tech:** HTML, Bootstrap  
-**GitHub:** [Project Link](https://github.com/DAINAWAMBUI)
-
 ---
 
 ## 🧪 Lab Challenges

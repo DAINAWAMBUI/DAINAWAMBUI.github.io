@@ -26,4 +26,10 @@ A full-featured e-commerce web application that enables:
 **GitHub:** *(Repository to be added if available)*
 
 ---
+---
+### 2. **Fast Food Ordering Website** (ongoing)
+Responsive ordering site for a mock fast food business.  
+**Tech:** HTML, CSS, JavaScript  
+**GitHub:** [Project Link](https://github.com/DAINAWAMBUI)
+---
 
