@@ -179,7 +179,7 @@ New-LocalUser -Name "Jim" –NoPassword
 - **Approach:** Studied DNS structure (TLDs, subdomains), queried DNS records (A, AAAA, CNAME, MX, TXT) using practical tools in the TryHackMe lab environment
 - **Tools:** DNS lookup interface, TryHackMe DNS simulator
 - **Lessons:** Learned how to retrieve IP addresses, email server info, CNAME chains, and domain verification data using DNS queries
-![Screenshot](assets/images/dns-in-details.jpg)
+<img src="assets/images/dns-in-details.jpg>
 
 ---
 
