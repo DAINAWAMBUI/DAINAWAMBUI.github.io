@@ -23,13 +23,12 @@ A full-featured e-commerce web application that enables:
 **Technologies Used:** Python, Django, MySQL, HTML, CSS  
 **Key Features:** Authentication, payment system, CRUD operations  
 **Status:** Complete  
-**GitHub:** *(Repository to be added if available)*
 
 ---
 ---
-### 2. **Fast Food Ordering Website** (ongoing)
+## 🛒**2.Fast Food Ordering Website** 
 Responsive ordering site for a mock fast food business.  
 **Tech:** HTML, CSS, JavaScript  
-**GitHub:** [Project Link](https://github.com/DAINAWAMBUI)
+**Status:** Ongoing
 ---
 
