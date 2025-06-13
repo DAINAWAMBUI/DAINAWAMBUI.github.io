@@ -3,7 +3,9 @@ title: "Daina Muiruri | Portfolio"
 layout: default
 ---
 
-!/images/photo.jpg
+<p align="center">
+  <img src="/assets/images/photo.jpg" alt="Daina Muiruri" width="180" style="border-radius: 50%;">
+</p>
 
 
 # **Daina Muiruri**  
