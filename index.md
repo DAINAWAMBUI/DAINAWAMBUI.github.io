@@ -123,7 +123,7 @@ wmic useraccount get name,sid
 New-LocalUser -Name "Jim" –NoPassword
 (Get-LocalUser -Name "Jim").SID.Value
 
-![Screenshot](assets/images/windows-fundamentals.png)
+![Screenshot](assets/images/windows-fundamentals-screenshot.png)
 
 ---
 
@@ -141,28 +141,6 @@ New-LocalUser -Name "Jim" –NoPassword
 ---
 
 ### 💻 HTB - Introduction to web application
-- **Problem:** Windows file/user misconfigurations  
-- **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
-- **Tools:** whoami, ipconfig, net user  
-- **Lessons:** Learned user privilege basics and common mistakes  
-![Screenshot](images/windowsfund.png)
-
----
-
----
-
-### 💻 HTB - Introduction to Cybersecurity
-- **Problem:** Windows file/user misconfigurations  
-- **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
-- **Tools:** whoami, ipconfig, net user  
-- **Lessons:** Learned user privilege basics and common mistakes  
-![Screenshot](images/windowsfund.png)
-
----
-
----
-
-### 💻 HTB - Getting Started
 - **Problem:** Windows file/user misconfigurations  
 - **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
 - **Tools:** whoami, ipconfig, net user  
