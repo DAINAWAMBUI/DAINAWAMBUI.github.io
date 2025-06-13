@@ -123,7 +123,7 @@ wmic useraccount get name,sid
 New-LocalUser -Name "Jim" –NoPassword
 (Get-LocalUser -Name "Jim").SID.Value
 
-![Screenshot](assets/images/windows-fundamentals-screenshot.png)
+<img src="assets/images/windows-fundamentals-screenshot.png">
 
 ---
 
@@ -157,7 +157,7 @@ New-LocalUser -Name "Jim" –NoPassword
 - **Approach:** Studied DNS structure (TLDs, subdomains), queried DNS records (A, AAAA, CNAME, MX, TXT) using practical tools in the TryHackMe lab environment
 - **Tools:** DNS lookup interface, TryHackMe DNS simulator
 - **Lessons:** Learned how to retrieve IP addresses, email server info, CNAME chains, and domain verification data using DNS queries
-<img src="assets/images/dns-in-details.png>
+<img src="assets/images/dns-in-details.png">
 
 ---
 
