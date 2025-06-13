@@ -81,11 +81,48 @@ A complete e-commerce platform with user registration, product browsing, payment
 
 ---
 
-### 💻 HTB - Windows Fundamentals
-- **Problem:** Windows file/user misconfigurations  
-- **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
-- **Tools:** whoami, ipconfig, net user  
-- **Lessons:** Learned user privilege basics and common mistakes  
+### 🪟 HTB - Windows Fundamentals
+
+**Platform:** Hack The Box Academy  
+**Challenge:** Windows Fundamentals Module  
+**Link:** [Completed Module Certificate](https://academy.hackthebox.com/achievement/1918160/49)
+
+---
+
+### 🧩 Problem Statement
+
+This lab aimed to reinforce best practices in securing, managing, and auditing Windows systems via command-line tools. Tasks included identifying system build information, locating non-standard files, inspecting user permissions, and managing shared resources and services.
+
+---
+
+### 🛠️ Approach & Tools Used
+
+- ✅ **System Info**: Used `Get-WmiObject` and `Get-CimInstance` to retrieve the **build number** and **Windows version**
+- 📁 **Directory Enumeration**: Used `Get-ChildItem` to scan the C:\ drive for **non-standard directories**
+- 🔐 **Permissions Check**: Employed `icacls` to determine which users had **full control** over directories like `C:\Users`
+- 🌐 **Network Protocols**: Referred to training notes to identify **SMB (Server Message Block)** as the network file-sharing protocol
+- 📊 **System Logs**: Confirmed **Event Viewer** as the default log viewer utility
+- 📂 **Shared Directory**: Created and managed a shared folder called **Company Data**
+- 🧪 **Service Auditing**: Used `Get-WmiObject Win32_Service` to identify **non-standard services**
+- 🧾 **Aliases**: Discovered the alias for `ipconfig.exe` was `ifconfig`
+- 🔒 **Execution Policy**: Checked using `Get-ExecutionPolicy –List`
+- 🔐 **User Management**: Used `wmic` and `New-LocalUser` to identify SIDs for custom users and security groups
+
+---
+
+### 🧪 Key Commands Used
+
+```powershell
+Get-WmiObject –Class win32_OperatingSystem | select Version, BuildNumber
+(Get-CimInstance Win32_OperatingSystem).Caption
+Get-ChildItem -Path C:\ -Directory
+icacls C:\Users
+Get-Alias | Where-Object { $_.Definition -like "*ipconfig*" }
+Get-ExecutionPolicy –List
+wmic useraccount get name,sid
+New-LocalUser -Name "Jim" –NoPassword
+(Get-LocalUser -Name "Jim").SID.Value
+
 ![Screenshot](images/windowsfund.png)
 
 ---
