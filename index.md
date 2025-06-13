@@ -3,10 +3,10 @@ title: "Daina Muiruri | Portfolio"
 layout: default
 ---
 
-# photo.jpg
+# **photo.jpg**
 
 # **Daina Muiruri**  
-**ICT Support Specialist | Web Developer | Cybersecurity Enthusiast**
+**ICT Support Specialist | Web Developer | Security Analyst Enthusiast**
 
 ---
 
