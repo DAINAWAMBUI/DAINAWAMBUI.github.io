@@ -139,6 +139,18 @@ New-LocalUser -Name "Jim" –NoPassword
 ---
 
 ---
+🛰️ TryHackMe - Passive Reconnaissance
+- **Problem:** Gather publicly available information about a target without direct interaction
+
+- **Approach:** Used CLI tools (whois, nslookup, dig) and online services (DNSDumpster, Shodan.io) to extract DNS records, server data, and registration info
+
+- **Tools:** whois, nslookup, dig, DNSDumpster, Shodan.io
+
+- **Lessons:** Learned to differentiate between active and passive recon, query WHOIS/TXT/MX records, identify subdomains, and analyze exposed services without touching the target directly
+
+---
+
+---
 
 ### 💻 HTB - Introduction to web application
 - **Problem:** Windows file/user misconfigurations  
