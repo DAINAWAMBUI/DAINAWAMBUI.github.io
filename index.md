@@ -4,7 +4,7 @@ layout: default
 ---
 
 <p align="center">
-  <img src="/assets/images/photo.jpg" alt="Daina Muiruri" width="180";>
+  <img src="/assets/images/photo.jpg" alt="Daina Muiruri" width="180">
 </p>
 
 
@@ -82,6 +82,50 @@ A complete e-commerce platform with user registration, product browsing, payment
 ---
 
 ### 💻 HTB - Windows Fundamentals
+- **Problem:** Windows file/user misconfigurations  
+- **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
+- **Tools:** whoami, ipconfig, net user  
+- **Lessons:** Learned user privilege basics and common mistakes  
+![Screenshot](images/windowsfund.png)
+
+---
+
+---
+
+### 💻 HTB - Linux Fundamentals
+- **Problem:** Windows file/user misconfigurations  
+- **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
+- **Tools:** whoami, ipconfig, net user  
+- **Lessons:** Learned user privilege basics and common mistakes  
+![Screenshot](images/windowsfund.png)
+
+---
+
+---
+
+### 💻 HTB - Introduction to web application
+- **Problem:** Windows file/user misconfigurations  
+- **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
+- **Tools:** whoami, ipconfig, net user  
+- **Lessons:** Learned user privilege basics and common mistakes  
+![Screenshot](images/windowsfund.png)
+
+---
+
+---
+
+### 💻 HTB - Introduction to Cybersecurity
+- **Problem:** Windows file/user misconfigurations  
+- **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
+- **Tools:** whoami, ipconfig, net user  
+- **Lessons:** Learned user privilege basics and common mistakes  
+![Screenshot](images/windowsfund.png)
+
+---
+
+---
+
+### 💻 HTB - Getting Started
 - **Problem:** Windows file/user misconfigurations  
 - **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
 - **Tools:** whoami, ipconfig, net user  
