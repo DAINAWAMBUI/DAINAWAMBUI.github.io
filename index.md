@@ -4,7 +4,7 @@ layout: default
 ---
 
 <p align="center">
-  <img src="/assets/images/photo.jpg" alt="Daina Muiruri" width="180" style="border-radius: 50%;">
+  <img src="/assets/images/photo.jpg" alt="Daina Muiruri" width="180";>
 </p>
 
 
@@ -68,7 +68,7 @@ A complete e-commerce platform with user registration, product browsing, payment
 
 ---
 
-### 2. **Fast Food Ordering Website**
+### 2. **Fast Food Ordering Website** (ongoing)
 Responsive ordering site for a mock fast food business.  
 **Tech:** HTML, CSS, JavaScript  
 **GitHub:** [Project Link](https://github.com/DAINAWAMBUI)
