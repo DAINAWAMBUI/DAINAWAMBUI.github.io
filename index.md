@@ -123,7 +123,7 @@ wmic useraccount get name,sid
 New-LocalUser -Name "Jim" –NoPassword
 (Get-LocalUser -Name "Jim").SID.Value
 
-![Screenshot](assets/images/windows-fundamentals.jpg)
+![Screenshot](assets/images/windows-fundamentals.png)
 
 ---
 
