@@ -3,7 +3,7 @@ title: "Daina Muiruri | Portfolio"
 layout: default
 ---
 
-![Daina's Profile Photo](/images/photo.jpg)
+!(/images/photo.jpg)
 
 
 # **Daina Muiruri**  
