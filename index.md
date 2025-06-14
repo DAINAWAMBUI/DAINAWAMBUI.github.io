@@ -71,6 +71,8 @@ A complete e-commerce platform with user registration, product browsing, payment
 ---
 
 ---
+### 2. **
+---
 
 ## 🧪 Lab Challenges
 
@@ -116,6 +118,8 @@ Get-ExecutionPolicy –List
 wmic useraccount get name,sid
 New-LocalUser -Name "Jim" –NoPassword
 (Get-LocalUser -Name "Jim").SID.Value
+
+### 📸 Screenshot
 <img src="assets/images/windows-fundamentals-screenshot.png">
 
 ---
@@ -127,6 +131,8 @@ New-LocalUser -Name "Jim" –NoPassword
 - **Approach:** Used shell commands to view system info, manage files/directories, inspect services, users, and packages; analyzed logs, inodes, and permissions; practiced starting web servers
 - **Tools:** uname, echo, ls, find, ps, useradd, usermod, systemctl, curl, php, npm, fdisk
 - **Lessons:** Gained confidence with Linux shell usage, user and service management, permission handling, and command-line networking. Learned practical skills for real-world penetration testing and system administration  
+
+### 📸 Screenshot
 <img src="assets/images/linux-fundamentals.png">
 
 ---
@@ -137,6 +143,8 @@ New-LocalUser -Name "Jim" –NoPassword
 - **Approach:** Used CLI tools (whois, nslookup, dig) and online services (DNSDumpster, Shodan.io) to extract DNS records, server data, and registration info
 - **Tools:** whois, nslookup, dig, DNSDumpster, Shodan.io
 - **Lessons:** Learned to differentiate between active and passive recon, query WHOIS/TXT/MX records, identify subdomains, and analyze exposed services without touching the target directly
+
+### 📸 Screenshot
 <img src="assets/images/passive-recon.png">
 
 ---
@@ -149,6 +157,8 @@ New-LocalUser -Name "Jim" –NoPassword
 - **Approach:** Studied DNS structure (TLDs, subdomains), queried DNS records (A, AAAA, CNAME, MX, TXT) using practical tools in the TryHackMe lab environment
 - **Tools:** DNS lookup interface, TryHackMe DNS simulator
 - **Lessons:** Learned how to retrieve IP addresses, email server info, CNAME chains, and domain verification data using DNS queries
+
+### 📸 Screenshot
 <img src="assets/images/dns-in-details.png">
 
 ---
