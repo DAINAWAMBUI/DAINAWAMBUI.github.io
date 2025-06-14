@@ -2,9 +2,9 @@
 title: "Daina Muiruri | Portfolio"
 layout: default
 ---
+  
 
-
-  <img src="/assets/images/photo.jpg" alt="Daina Muiruri" width="180">
+  <img src="/assets/images/photo.jpg" alt="Daina Muiruri" width="180" style="border-radius: 50%;" >
 
 
 
