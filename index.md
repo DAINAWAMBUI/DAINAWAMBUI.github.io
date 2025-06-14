@@ -107,7 +107,7 @@ New-LocalUser -Name "Jim" –NoPassword
 (Get-LocalUser -Name "Jim").SID.Value
 
 ### 📸 Screenshot
-<img src="assets/images/windows-fundamentals-screenshot.png">
+<img src="assets/images/windows-fundamentals.png">
 
 ---
 
