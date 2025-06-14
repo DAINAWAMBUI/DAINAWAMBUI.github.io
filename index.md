@@ -3,9 +3,9 @@ title: "Daina Muiruri | Portfolio"
 layout: default
 ---
 
-<p align="center">
+
   <img src="/assets/images/photo.jpg" alt="Daina Muiruri" width="180">
-</p>
+
 
 
 # **Daina Muiruri**  
@@ -42,10 +42,12 @@ layout: default
 ---
 
 ### 🏆 Certifications
+- Virtual Assistant - ALX
 - Cybersecurity Fundamentals – IBM
 - Introduction to Cyber Security – Cisco
 - Cyber Awareness – HP Life
 - Information System Auditing & Assurance
+
 
 ---
 
