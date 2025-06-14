@@ -72,16 +72,9 @@ A complete e-commerce platform with user registration, product browsing, payment
 
 ## 🧪 Lab Challenges
 
-### 🌐 HTB - Web Fundamentals
-- **Problem:** Understand how web applications work, their architecture, and common security flaws
-- **Approach:** Explored differences between websites and web apps, identified exposed passwords in HTML comments, used GET requests for enumeration, and tested XSS injection
-- **Tools:** Browser Developer Tools, HTML inspection, JavaScript, CVE database (NVD), GET requests
-- **Lessons:** Learned about frontend structure (HTML/CSS), XSS attacks, exposed credentials, web infrastructure layers, and how vulnerabilities like CVE-2017-0144 are evaluated and scored
-
 ---
 
 ### 🪟 HTB - Windows Fundamentals
-
 **Platform:** Hack The Box Academy  
 **Challenge:** Windows Fundamentals Module  
 **Link:** [Completed Module Certificate](https://academy.hackthebox.com/achievement/1918160/49)
@@ -121,7 +114,6 @@ Get-ExecutionPolicy –List
 wmic useraccount get name,sid
 New-LocalUser -Name "Jim" –NoPassword
 (Get-LocalUser -Name "Jim").SID.Value
-
 <img src="assets/images/windows-fundamentals-screenshot.png">
 
 ---
@@ -129,11 +121,11 @@ New-LocalUser -Name "Jim" –NoPassword
 ---
 
 ### 💻 HTB - Linux Fundamentals
-- **Problem:** Windows file/user misconfigurations  
-- **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
-- **Tools:** whoami, ipconfig, net user  
-- **Lessons:** Learned user privilege basics and common mistakes  
-![Screenshot](images/windowsfund.png)
+- **Problem:** Learn basic Linux command-line operations and system structure for navigating, managing, and analyzing Linux environments
+- **Approach:** Used shell commands to view system info, manage files/directories, inspect services, users, and packages; analyzed logs, inodes, and permissions; practiced starting web servers
+- **Tools:** uname, echo, ls, find, ps, useradd, usermod, systemctl, curl, php, npm, fdisk
+- **Lessons:** Gained confidence with Linux shell usage, user and service management, permission handling, and command-line networking. Learned practical skills for real-world penetration testing and system administration  
+<img src="assets/images/linux-fundamentals.png">
 
 ---
 
@@ -144,17 +136,6 @@ New-LocalUser -Name "Jim" –NoPassword
 - **Tools:** whois, nslookup, dig, DNSDumpster, Shodan.io
 - **Lessons:** Learned to differentiate between active and passive recon, query WHOIS/TXT/MX records, identify subdomains, and analyze exposed services without touching the target directly
 <img src="assets/images/passive-recon.png">
-
----
-
----
-
-### 💻 HTB - Introduction to web application
-- **Problem:** Windows file/user misconfigurations  
-- **Approach:** Used cmd/PowerShell to explore and identify weaknesses  
-- **Tools:** whoami, ipconfig, net user  
-- **Lessons:** Learned user privilege basics and common mistakes  
-![Screenshot](images/windowsfund.png)
 
 ---
 
