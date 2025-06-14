@@ -61,19 +61,6 @@ Analytical Thinking, Teamwork, Communication, Project Management, Time Managemen
 
 ---
 
-## 💻 Projects
-
-### 1. **Online Shopping Management System (OSMS)**
-A complete e-commerce platform with user registration, product browsing, payments, and admin support.  
-**Tech:** Python, Django, MySQL  
-**GitHub:** [Project Link](https://github.com/DAINAWAMBUI)
-
----
-
----
-### 2. **
----
-
 ## 🧪 Lab Challenges
 
 ---
@@ -138,7 +125,7 @@ New-LocalUser -Name "Jim" –NoPassword
 ---
 
 ---
- ### 🛰️ TryHackMe - Passive Reconnaissance
+ ### 🛰️ - Passive Reconnaissance
 - **Problem:** Gather publicly available information about a target without direct interaction
 - **Approach:** Used CLI tools (whois, nslookup, dig) and online services (DNSDumpster, Shodan.io) to extract DNS records, server data, and registration info
 - **Tools:** whois, nslookup, dig, DNSDumpster, Shodan.io
