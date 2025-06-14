@@ -94,13 +94,11 @@ This lab aimed to reinforce best practices in securing, managing, and auditing W
 ---
 
 ### 🧪 Key Commands Used
-
 ## powershell
 - **Get-WmiObject –Class win32_OperatingSystem | select Version, BuildNumber
 (Get-CimInstance Win32_OperatingSystem).Caption
 - **Get-ChildItem -Path C:\ -Directory
-icacls C:\Users
-- **Get-Alias | Where-Object { $_.Definition -like "*ipconfig*" }
+- **icacls C:\Users
 - **Get-ExecutionPolicy –List
 - **wmic useraccount get name,sid
 - **New-LocalUser -Name "Jim" –NoPassword
